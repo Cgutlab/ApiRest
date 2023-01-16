@@ -1,0 +1,46 @@
+-- # ApiRest
+-- 
+-- Instalation
+-- 
+-- php artisan migrate:fresh
+-- 
+-- php artisan db:seed --class=ServiceTableSeeder
+-- 
+-- php artisan serve
+-- 
+-- 
+-- 
+-- Routes
+-- 
+-- Method POST
+-- 
+-- http://localhost:8000/api/subscription/store
+-- 
+-- Method POST
+-- 
+-- http://localhost:8000/api/subscription/destroy
+-- 
+-- 
+-- 
+-- Data Store:
+-- 
+-- client = Unique
+-- 
+-- date   = YYYY-mm-dd
+-- 
+-- Data Destroy:
+-- 
+-- client = Unique
+-- 
+-- 
+-- 
+-- Congratulations!
+-- 
+-- Versions:
+-- 
+-- PHP 8.1.12
+-- 
+-- Laravel 9.19
+-- 
+-- Postman 
+-- 
